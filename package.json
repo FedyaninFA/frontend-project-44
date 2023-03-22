@@ -1,0 +1,19 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/FedyaninFA/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/FedyaninFA/frontend-project-44/actions)",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/FedyaninFA/frontend-project-44.git)"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  }
+}
