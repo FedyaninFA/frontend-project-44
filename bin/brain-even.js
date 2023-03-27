@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-console.log('ok')
+
+import evenOrNot from '../src/game-even.js';
+evenOrNot();
