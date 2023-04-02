@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 
-import evenOrNot from '../games/game-even.js';
+import evenOrNot from '../src/games/game-even.js';
 evenOrNot();
+
