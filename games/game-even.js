@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 import readLineSync from 'readline-sync';
 
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
 const evenOrNot = () => {
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+
   let result = '';
   const randomNumber = Math.ceil(Math.random() * 100);
   if (randomNumber % 2 === 0) {
