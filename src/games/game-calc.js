@@ -10,7 +10,8 @@ function getRandomOperator() {
   return randomSymbol;
 }
 
-function expression(operator, firstOperand, secondOperand) {
+// eslint-disable-next-line consistent-return
+const expression = (operator, firstOperand, secondOperand) => {
   switch (operator) {
     case '+':
       return firstOperand + secondOperand;
@@ -20,7 +21,7 @@ function expression(operator, firstOperand, secondOperand) {
       return firstOperand * secondOperand;
     default: console.log('unexpected operator');
   }
-}
+};
 
 function calculateExpression() {
   greeting();
