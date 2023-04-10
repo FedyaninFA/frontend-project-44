@@ -33,7 +33,7 @@ const evenOrNot = () => {
       return;
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
-      console.log(`Let's try again ${userNameArray[0]}`);
+      console.log(`Let's try again, ${userNameArray[0]}`);
       return;
     }
   }
