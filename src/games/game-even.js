@@ -2,11 +2,10 @@
 import readLineSync from 'readline-sync';
 import { greeting, userNameArray } from '../cli.js';
 
-greeting();
-
-console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
 const evenOrNot = () => {
+  greeting();
+
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < 3; i += 1) {
     let result = '';
 
@@ -38,7 +37,7 @@ const evenOrNot = () => {
       return;
     }
   }
-  console.log(`'Congratulations, ${userNameArray[0]}!'`)
+  console.log(`'Congratulations, ${userNameArray[0]}!'`);
   return;
 };
 
