@@ -18,7 +18,8 @@ function getGcd() {
     }
     const gcd = a + b;
     result = `${result}${gcd}`;
-    //console.log(result);
+    // console.log(result);
+
     const answer = readLineSync.question('Your answer:');
     if (answer === result) {
       console.log('Correct!');

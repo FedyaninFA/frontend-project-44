@@ -1,4 +1,5 @@
 import readLineSync from 'readline-sync';
+
 const userNameArray = [];
 function greeting() {
 // eslint-disable-next-line no-console
@@ -7,5 +8,5 @@ function greeting() {
   userNameArray.push(userName);
   // eslint-disable-next-line no-console
   console.log(`Hello, ${userName}!`);
-};
+}
 export { greeting, userNameArray };
