@@ -30,6 +30,7 @@ function getGcd() {
     }
   }
   console.log(`Congratulations, ${userNameArray[0]}!`);
+  return;
 }
 
 export default getGcd;
