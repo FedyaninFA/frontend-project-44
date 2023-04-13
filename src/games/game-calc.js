@@ -41,6 +41,7 @@ function calculateExpression() {
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${result}`);
       console.log(`Let's try again, ${userNameArray[0]}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${userNameArray[0]}!`);
