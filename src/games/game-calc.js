@@ -41,11 +41,10 @@ function calculateExpression() {
     } else {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${result}`);
       console.log(`Let's try again, ${userNameArray[0]}!`);
-      return;   
+      return;
     }
   }
   console.log(`Congratulations, ${userNameArray[0]}!`);
-  return;
 }
 
 export default calculateExpression;
