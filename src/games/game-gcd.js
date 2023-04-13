@@ -11,7 +11,7 @@ function getGcd() {
     let b = randomNumber();
     let result = '';
     console.log(`Question: ${a} ${b}`);
-    while (a != 0 && b != 0) {
+    while (a !== 0 && b !== 0) {
       if (a > b) {
         a %= b;
       } else { b %= a; }
@@ -30,7 +30,6 @@ function getGcd() {
     }
   }
   console.log(`Congratulations, ${userNameArray[0]}!`);
-  return;
 }
 
 export default getGcd;

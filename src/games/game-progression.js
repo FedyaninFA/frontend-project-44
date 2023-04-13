@@ -21,7 +21,7 @@ function getProgression() {
     const numberToHide = Math.round(Math.random() * (progression.length - 1));
     const hidenNumber = progression[numberToHide];
     result = `${result}${hidenNumber}`;
-    progression[numberToHide] = `..`;
+    progression[numberToHide] = '..';
     const linedProgression = progression.join(' ');
 
     console.log(`Question: ${linedProgression}`);
@@ -35,7 +35,6 @@ function getProgression() {
       return;
     }
   } console.log(`Congratulations, ${userNameArray[0]}!`);
-  return;
 }
 
 export default getProgression;

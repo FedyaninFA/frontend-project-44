@@ -35,7 +35,6 @@ function isPrime() {
       return;
     }
   } console.log(`Congratulations, ${userNameArray[0]}!`);
-  return;
 }
 
 export default isPrime;

@@ -38,7 +38,6 @@ const evenOrNot = () => {
     }
   }
   console.log(`Congratulations, ${userNameArray[0]}!`);
-  return;
 };
 
 export default evenOrNot;
