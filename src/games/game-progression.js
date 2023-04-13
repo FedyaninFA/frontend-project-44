@@ -35,6 +35,7 @@ function getProgression() {
       return;
     }
   } console.log(`Congratulations, ${userNameArray[0]}!`);
+  return;
 }
 
 export default getProgression;
