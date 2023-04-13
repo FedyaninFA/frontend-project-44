@@ -9,4 +9,4 @@ function greeting() {
   // eslint-disable-next-line no-console
   console.log(`Hello, ${userName}!`);
 }
-export default { greeting, userNameArray };
+export { greeting, userNameArray };
