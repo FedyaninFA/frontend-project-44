@@ -25,19 +25,19 @@ const evenOrNot = () => {
       console.log('Correct!');
     } else if (randomNumber % 2 === 0 && answer === 'no') {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
-      console.log(`Let's try again ${userNameArray[0]}`);
+      console.log(`Let's try again, ${userNameArray[0]}!`);
       return;
     } else if (randomNumber % 2 !== 0 && answer === 'yes') {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
-      console.log(`Let's try again ${userNameArray[0]}`);
+      console.log(`Let's try again, ${userNameArray[0]}!`);
       return;
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
-      console.log(`Let's try again, ${userNameArray[0]}`);
+      console.log(`Let's try again, ${userNameArray[0]}!`);
       return;
     }
   }
-  console.log(`'Congratulations, ${userNameArray[0]}!'`);
+  console.log(`Congratulations, ${userNameArray[0]}!`);
   return;
 };
 
